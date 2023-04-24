@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de autocomplete</title>
+</head>
+<body>
+    <form action="parametros.asp" method="post">
+        <input id="comida_id" name="comida" type="text" list="comidas_id">
+
+        <datalist id="comidas_id">
+            <option value="Lasanha">
+            <option value="Pizza">
+            <option value="Sopa">
+            <option value="Salada">
+        </datalist>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
